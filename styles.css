@@ -39,7 +39,11 @@ body.dark-mode {
 }
 
 /* ///ADD/// Skip Link Styles */
-
+.skip{
+  left: -50%;
+  position: absolute;
+  transform: translateY(-100%);
+}
 /* ///ADD/// Navigation Styles */
 
 /* ///ADD/// Global Layout Styles */
