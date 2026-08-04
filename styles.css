@@ -181,7 +181,30 @@ body.dark-mode {
 /* ///ADD/// Navigation Styles */
 
 /* ///ADD/// Global Layout Styles */
-
+body{
+  margin: 0 auto;
+  background-color: var(--watchdog-white);
+}
+h1{
+  font-size: 40px;
+}
+h2{
+  font-size: 25px;
+}
+h3{
+  font-size: 20px;
+}
+#breaking-news section{
+  background-color: var(--news-flash);
+  color: var(--watchdog-white);
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+} 
+#featured-articles section{
+  display: flex;
+  flex-direction: column;
+}
 /* ///ADD/// Global Text Styles */
 
 
