@@ -181,12 +181,35 @@ body.dark-mode {
 /* ///ADD/// Navigation Styles */
 
 /* ///ADD/// Global Layout Styles */
+/* ///ADD/// Global Text Styles */
 body{
   margin: 0 auto;
   background-color: var(--watchdog-white);
 }
+header{
+  background-color: var(--blue-bulletin);
+  color: var(--watchdog-white);
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+}
+.mobile-nav{
+  text-align: center;
+}
+a{
+  text-decoration: none;
+}
+.tagline{
+  font-weight: bold;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
 h1{
   font-size: 40px;
+  padding: 20px;
 }
 h2{
   font-size: 25px;
@@ -205,17 +228,29 @@ h3{
   display: flex;
   flex-direction: column;
 }
-/* ///ADD/// Global Text Styles */
+
 
 
 /* ///ADD/// medium styles 620px */
-
+@media screen and (min-width: 620px){
+  body{
+    min-width: 620px;
+  }
+}
 
 /* ///ADD/// large styles 920px */
-
+@media screen and (min-width: 920px) {
+  body {
+    min-width: 920px;
+  }
+}
 
 /* ///ADD/// x-large styles 1024px */
-
+@media screen and (min-width: 1024px) {
+  body {
+    min-width: 1024px;
+  }
+}
 
 /* ///ADD/// Interaction Queries for color scheme light and dark and motion preference */
 
