@@ -185,6 +185,7 @@ body.dark-mode {
 body{
   margin: 0 auto;
   background-color: var(--watchdog-white);
+  max-width: 400px;
 }
 header{
   background-color: var(--blue-bulletin);
@@ -213,6 +214,7 @@ h1{
 }
 h2{
   font-size: 25px;
+  padding-bottom: 20px;
 }
 h3{
   font-size: 20px;
@@ -258,6 +260,23 @@ fieldset input{
   background-color: var(--blue-bulletin);
   color: var(--watchdog-white);
   font-weight: bold;
+}
+#follow-us{
+  background-color: var(--blue-bulletin);
+    color: var(--watchdog-white);
+    padding: 30px;
+}
+footer{
+  display: flex;
+  flex-flow: wrap;
+  gap: 10px;
+  
+}
+footer a{
+  background-color: var(--news-flash);
+  color: var(--watchdog-white);
+  padding: 5px;
+  
 }
 
 
