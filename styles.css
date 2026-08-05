@@ -234,6 +234,9 @@ form {
   color: var(--watchdog-white);
   display: flex;
   flex-direction: column;
+  max-width: 350px;
+  justify-content: center;
+  margin: 0 auto;
 }
 form label{
   display: flex;
@@ -250,6 +253,11 @@ legend{
 }
 fieldset input{
   padding: 20px;
+}
+#subscribe{
+  background-color: var(--blue-bulletin);
+  color: var(--watchdog-white);
+  font-weight: bold;
 }
 
 
