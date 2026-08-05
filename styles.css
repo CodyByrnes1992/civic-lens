@@ -229,6 +229,28 @@ h3{
   flex-direction: column;
 }
 
+form {
+  background-color: var(--news-flash);
+  color: var(--watchdog-white);
+  display: flex;
+  flex-direction: column;
+}
+form label{
+  display: flex;
+  padding: 10px;
+ 
+}
+form input{
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px;
+}
+legend{
+  padding-top: 10px;
+}
+fieldset input{
+  padding: 20px;
+}
 
 
 /* ///ADD/// medium styles 620px */
