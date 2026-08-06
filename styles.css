@@ -1,4 +1,4 @@
-/* CSS by ///ADD/// YOUR NAME */
+/* CSS by Cody Byrnes */
 
 /* Imported Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wdth,wght@0,18..144,87..112,300..900;1,18..144,87..112,300..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
@@ -183,6 +183,7 @@ body.dark-mode {
 /* ///ADD/// Global Layout Styles */
 /* ///ADD/// Global Text Styles */
 body{
+  font-family: var(--font-body);
   margin: 0 auto;
   background-color: var(--watchdog-white);
   max-width: 400px;
@@ -204,33 +205,50 @@ a{
   text-decoration: none;
 }
 .tagline{
-  font-weight: bold;
+  color: var(--watchdog-white);
   padding-left: 20px;
   padding-bottom: 20px;
+}
+#welcome .tagline {
+  color: var(--truth-text);
+}
+#welcome h2{
+  padding-top: 30px;
+  margin-left: 10px;
+}
+#welcome p{
+  padding: 10px;
 }
 h1{
   font-size: 40px;
   padding: 20px;
+  font-family: var(--font-heading);
 }
 h2{
   font-size: 25px;
-  padding-bottom: 20px;
+  font-family: var(--font-heading);
+  
 }
 h3{
   font-size: 20px;
+  font-family: var(--font-heading);
 }
+
 #breaking-news section{
   background-color: var(--news-flash);
   color: var(--watchdog-white);
   padding-left: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   padding-top: 20px;
+  margin-bottom: 10px;
 } 
 #featured-articles section{
   display: flex;
   flex-direction: column;
 }
-
+#featured-articles{
+  padding: 20px;
+}
 form {
   background-color: var(--news-flash);
   color: var(--watchdog-white);
