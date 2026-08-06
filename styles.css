@@ -190,6 +190,12 @@ body.dark-mode {
   font-size: 24px;
   font-family: var(--font-body);
 }
+.menu a {
+  background-color: var(--news-flash);
+  color: var(--watchdog-white);
+  padding: 5px;
+
+}
 /* ///ADD/// Navigation Styles */
 
 /* ///ADD/// Global Layout Styles */
@@ -289,6 +295,7 @@ h1, h2, h3{
     padding-top: 20px;
     margin-bottom: 10px;
 }
+/*
 form {
   background-color: var(--news-flash);
   color: var(--watchdog-white);
@@ -311,10 +318,21 @@ form input{
 legend{
   padding-top: 10px;
 }
-fieldset input{
+
+}*/
+form{
+  display: flex;
+  flex-direction: column;
+  background-color: var(--news-flash);
+  color: var(--watchdog-white);
   padding: 20px;
 }
-#subscribe{
+form input{
+  padding: 10px;
+  display: flex;
+}
+
+#subscribe {
   background-color: var(--blue-bulletin);
   color: var(--watchdog-white);
   font-weight: bold;
@@ -343,6 +361,28 @@ footer a{
   body{
     min-width: 620px;
   }
+  header{
+    padding: 20px;
+  }
+  .menu{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .menu a{
+     background-color: var(--news-flash);
+      color: var(--watchdog-white);
+      padding: 5px;   
+  }
+  #breaking-news {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  #breaking-news section{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
 }
 
 /* ///ADD/// large styles 920px */
